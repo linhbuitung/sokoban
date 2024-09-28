@@ -1,0 +1,8 @@
+services:
+  web:
+    image: "sokoban:latest"
+    build: .
+    ports:
+      - "5000:5000"
+  redis:
+    image: "sokoban:latest"
